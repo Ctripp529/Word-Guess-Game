@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("../images/backgroundimg.jpeg");
+    background-size: 100%;
+   
+}
+h1 {
+    
+    font-family: 'Impact', Haettenschweiler, Arial Narrow Bold, sans-serif;
+}
+h2, h3, h4, h5, h6 {
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+p{
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background: rgb(0, 0, 128, 0.2)
+    
+}
+.row {
+    background: rgb(0, 128, 128, 0.4)
+}
+#status {
+    height: 390px;
+    width: 450px;
+    opacity: 1.0;
+}
+.header {
+    grid-area: header;
+    background-color: lightskyblue;
+    border-bottom: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+footer {
+    position: sticky;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-areas: 'header header header header header header' 'left left left left left left' 'middle middle middle middle middle middle' 'right right right right right right' 'footer footer footer footer footer footer';
+    }
+}
