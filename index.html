@@ -3,48 +3,46 @@
 
 <head>
     <meta charset="UFT-8">
-    <title> Word Game| c|< Design </title></Design>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <title> Word Game| c|< Design </title> </Design> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+                integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+            <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron">
-        <h1>Hangman: The Office</h1>
-        <p>Have fun guessing character names from the popular TV show, The Office.</p>
-        <p>You will have 7 tries before it restarts. You can press any key to start.</p>
+            <h1>Hangman: The Office</h1>
+            <p>Have fun guessing character names from the popular TV show, The Office.</p>
+            <p>You will have 7 tries before it restarts. You can press any key to start.</p>
+        </div>
     </div>
-</div>
-<br>
+    <br>
 
-<div class="container" >
-    <div class="row">
-        <div class="col-md-8">
-            <br>
-            <h4>Guess a character name...</h4>
-            <h2 id="currentWord"></h2>
-            <img id="status" src="assets/images/status.png" alt="win or lose"> 
-        </div>
-            <br>
-        <div class="col-sm-4">
-            <br>
-            <h4>Wins</h4>
-            <h5 id="totalWins"></h5>
-            <br>
-            <h4>Guesses Left</h4>
-            <h5 id="lives"></h5>
-            <br>
-            <h4>Letters you have Guessed</h4>
-            <h5 id="usedLetters"></h5>
+    <div class="container">
+        <div class="row">
+            <div class="col-md" style="display: inline;">
+                <h4>Wins</h4>
+                <h5 id="totalWins"></h5>
+                <h4>Guesses Left</h4>
+                <h5 id="lives"></h5>
+                <h4>Letters you have Guessed</h4>
+                <h5 id="usedLetters"></h5>
+                <h4>Guess a character name...</h4>
+                <h2 id="currentWord"></h2>
+            </div>
+            <div class="col-md">
+            <img id="status" src="assets/images/status.png" alt="win or lose">
         </div>
     </div>
-</div>
-        <br>
-        <footer>Copyright&copy;</footer>
-         <script type="text/javascript" src="assets/javascript/game.js"></script>
-    </body>
+    <br>
+    <footer>Copyright &copy; <script>
+            document.write(new Date().getFullYear());
+        </script> | C|&lt; Design |</footer>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
 
 </html>
